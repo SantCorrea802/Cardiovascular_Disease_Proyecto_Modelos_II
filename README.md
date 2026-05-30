@@ -58,26 +58,45 @@ Execution Order
 To reproduce the project, run the notebooks in the following order:
 
 EDA_preprocessing/EDA.ipynb
+
 Performs exploratory data analysis, cleaning, feature engineering, and generates data_cleaned.csv.
+
 Models/logistic_regression.ipynb
+
 Trains and evaluates Logistic Regression.
+
 Models/knn.ipynb
+
 Trains and evaluates K-Nearest Neighbors.
+
 Models/random_forest.ipynb
+
 Trains and evaluates Random Forest.
+
 Models/svm.ipynb
+
 Trains and evaluates Linear SVM and RBF SVM.
+
 Models/mlp_ann.ipynb
+
 Trains and evaluates the Multilayer Perceptron neural network.
+
 FinalStage/01_selected_models.ipynb
+
 Compares the final metrics of all five models and selects the final model.
+
 FinalStage/02_dimensionality_reduction.ipynb
+
 Applies feature analysis, PCA, and UMAP to evaluate dimensionality reduction on the top two models.
+
 FinalStage/03_prueba_inferencia_modelo_final.ipynb
+
 Loads the exported final model and performs a simple prediction test.
+
 Environment
 
 The exported models were generated using a scikit-learn compatible environment. For loading the exported .joblib models, use:
+
 
 pip install scikit-learn==1.6.1 pandas numpy matplotlib joblib jupyter
 
