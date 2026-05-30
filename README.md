@@ -42,11 +42,17 @@ PROYECTO_MODELOS_II/
 ```
 Folder Description
 dataset/: contains the original dataset and the cleaned dataset used by the models.
+
 EDA_preprocessing/: contains the exploratory data analysis and preprocessing notebook.
+
 Models/: contains the individual training notebooks for each machine learning model.
+
 ExportedModels/: contains the trained models exported with joblib.
+
 FinalStage/: contains the final model comparison, dimensionality reduction experiments, and a simple inference test.
+
 Informe/: contains the final academic report in IEEE format.
+
 Execution Order
 
 To reproduce the project, run the notebooks in the following order:
