@@ -40,7 +40,7 @@ PROYECTO_MODELOS_II/
 │
 └── README.md
 ```
-Folder Description
+*Folder Description*
 dataset/: contains the original dataset and the cleaned dataset used by the models.
 
 EDA_preprocessing/: contains the exploratory data analysis and preprocessing notebook.
@@ -53,7 +53,7 @@ FinalStage/: contains the final model comparison, dimensionality reduction exper
 
 Informe/: contains the final academic report in IEEE format.
 
-Execution Order
+*Execution Order*
 
 To reproduce the project, run the notebooks in the following order:
 
