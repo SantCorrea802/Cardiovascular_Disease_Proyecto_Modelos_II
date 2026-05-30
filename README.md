@@ -6,8 +6,8 @@ The project evaluates five model families: Logistic Regression, KNN, Random Fore
 
 ## Repository Structure
 
+```text
 PROYECTO_MODELOS_II/
-│
 ├── dataset/
 │   ├── cardio_train.csv
 │   └── data_cleaned.csv
@@ -39,6 +39,7 @@ PROYECTO_MODELOS_II/
 │   └── Cardiovascular_Disease_Prediction_Through_Data_Preprocessing_and_Classification_Techniques.pdf
 │
 └── README.md
+```
 Folder Description
 dataset/: contains the original dataset and the cleaned dataset used by the models.
 EDA_preprocessing/: contains the exploratory data analysis and preprocessing notebook.
